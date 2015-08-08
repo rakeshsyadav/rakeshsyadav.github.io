@@ -107,7 +107,7 @@ color: white;
 
 .desk-menu .nav > li:before { 
     content: "";
-     border-bottom: 20px solid black; 
+         border-bottom: 10px solid #F7EA87;
      border-left: 20px solid transparent;
     display: block;
     height: 0;

@@ -22,7 +22,7 @@
 			  content: 'Follows Agile methodology for Web page development'
 			},
 			{
-			  title: 'Debugging & Compatibility:',
+			  title: 'Debugging & Compatibility',
 			  content: 'Ability to debug errors, ensuring cross browser compatibility, performance and adherence to W3C compliance'
 			},
 			{
