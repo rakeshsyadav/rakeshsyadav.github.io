@@ -19,7 +19,9 @@ position: relative;
 margin-bottom: 50px;
 }
 
-
+.panel-heading {
+    padding: 15px 15px;
+}
 
 
 .desk-menu {
@@ -341,7 +343,7 @@ margin-top: 0;
 }
 
 .icon-box {
-    margin: 12px 0;
+    margin: 8px 0;
     text-align: center;
 }
 
@@ -351,9 +353,9 @@ margin-top: 0;
     color: #232323;
     display: inline-block;
     font-size: 38px;
-    height: 90px;
+    height: 70px;
     line-height: 100px;
-    margin-bottom: 24px;
+    /* margin-bottom: 24px; */
     transition: all 0.25s ease 0s;
     width: 90px;
 }
@@ -481,9 +483,9 @@ min-width: 250px; */
 .icon-box .icon {
     display: inline-block;
     font-size: 32px;
-    height: 80px;
+    height: 60px;
     line-height: 80px;
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
     transition: all 0.25s ease 0s;
     width: 80px;
 } 
