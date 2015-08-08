@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+</head>
+<body>
+<div id="contact">
+	<section>
+		<div class="clearfix pd-25">
+			<div class="contact-form">
+
+                <!-- Map Start -->
+                <div class="col-sm-7">
+                    <div class="map-wrapper">
+                      
+						<div my-map=""></div>
+						<!-- <div id="class" ng-repeat="marker in markers | orderBy : 'title'">
+							 <a href="#" ng-click="openInfoWindow($event, marker)">{{marker.title}}</a>
+						</div> -->
+					
+                    </div>
+                  </div> <!-- Map end -->
+
+                <!-- Contact Form start -->
+                <div class="col-sm-5">
+                    <div class="clearfix card-panel grey lighten-5 cform-wrapper">
+                      <form action="../Moodle/contactme.php" method="post"  id="contactForm" name="MyForm">
+                        <div class="input-field">
+                          <input type="text" class="validate input-box" name="contactName" ng-model="contactName" id="contact_name" kl_virtual_keyboard_secure_input="on" ng-click="MyForm.contactName.$invalid" required>
+                          <label class="input-label" for="contact_name">Name</label>
+                        </div>
+                        <div class="input-field">
+                          <input type="email" class="validate input-box" name="contactEmail" id="email" ng-model="email" ng-click="MyForm.email.$invalid" required>
+                          <label class="input-label" for="email">Email</label>
+                        </div>
+                        <div class="input-field">
+                          <input type="text" class="validate input-box" name="contactSubject" ng-model="contactSubject" ng-click="MyForm.contactSubject.$invalid" id="subject" kl_virtual_keyboard_secure_input="on" required>
+                          <label class="input-label" for="subject">Subject</label>
+                        </div>
+                        <div class="input-field textarea-input">
+                          <textarea style="height: 22px;" class="validate materialize-textarea" ng-class="active" ng-click="MyForm.contactMessage.$invalid" ng-model="contactMessage" name="contactMessage" id="textarea1"></textarea>
+                          <label class="input-label" for="textarea1">Message</label>
+                        </div>
+                        <div class="input-field submit-wrap clearfix">
+                          <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
+                          <div class="right form-loader-area">
+                            <!-- <svg width="20" height="20" class="circular size-20">
+                              <circle stroke-miterlimit="10" stroke-width="3" fill="none" r="7" cy="10" cx="10" class="path"/>
+                            </svg> -->
+                          </div>
+                        </div>
+                      </form>
+                    </div>
+                  </div> <!-- ./contact form end -->
+                
+				
+			</div>
+			
+			
+		</div>
+	</section>
+</div>
+<script>
+function initialize() {
+  var mapProp = {
+    center:new google.maps.LatLng(51.508742,-0.120850),
+    zoom:5,
+    mapTypeId:google.maps.MapTypeId.ROADMAP
+  };
+  var map=new google.maps.Map(document.getElementById("googleMap"), mapProp);
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+</script>
+</body>
+</html>

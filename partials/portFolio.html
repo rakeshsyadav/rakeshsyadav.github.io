@@ -1,0 +1,16 @@
+<div id="portfolio">
+	<section>
+		<div class="clearfix pd-25">
+			<div ng-controller="AccordionDemoCtrl">
+				<accordion close-others="oneAtATime">
+					<accordion-group heading="{{group.title}}" ng-repeat="group in groups">
+					  {{group.content}}
+					</accordion-group>
+					
+			    </accordion>	
+				
+		    </div>
+				
+		</div>
+	</section>
+</div>
