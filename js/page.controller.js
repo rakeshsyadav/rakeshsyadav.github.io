@@ -7,7 +7,7 @@
 		$scope.groups = [
 			{
 			  title: 'UI Experience',
-			  content: '6+ yrs of successful experience in web domain with Native JavaScript, Object Oriented JavaScript, AngularJS, Node.js, JQuery, Bootstrap, Ajax, JSON, HTML4.0/5, CSS2/3 and Responsive Designing skill set'
+			  content: '9+ yrs of successful experience in web domain with Native JavaScript, Object Oriented JavaScript, AngularJS, Angular2, Node.js, JQuery, Bootstrap, Ajax, JSON, HTML4.0/5, CSS2/3 and Responsive Designing skill set'
 			},
 			{
 			  title: 'Technical proficiency',
